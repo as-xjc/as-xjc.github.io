@@ -1,7 +1,7 @@
 {
   "name": "As.xjc",
   "tagline": "一名游戏后端攻城狮",
-  "body": "### 关于我\r\n大家好，我叫萧建成。平时爱好健身。\r\n\r\n### 技能\r\n- C\r\n- C++\r\n- java\r\n- python\r\n- lua\r\n- svn\r\n- git\r\n\r\n### 工作历程\r\n1. 2010/08/02 - 2011/08/31 广州市知圆行方信息科技有限公司：《泰米时空》(页游)\r\n1. 2011/09/01 - 2013/05/10 广州市擎天柱网络科技有限公司：《封神》《封神2》(端游)\r\n1. 2013/05/13 - 2016/11/14 广州市擎天柱网络科技有限公司：《大航海》(暂定，手游)\r\n\r\n### 联系我\r\n[GitHub](https://github.com/as-xjc)",
+  "body": "# 关于我\r\n\r\n# 工作历程\r\n\r\n## 广州市擎天柱网络科技有限公司 (2011年9月 ~ 2016年11月)\r\n\r\n### 大航海（手游，名字暂定）（2013年5月 ~ 2016年11月）\r\n主要负责服务端的构建，基础模块，游戏内容的开发。也参与了客户端的战斗开发。\r\n\r\n### 封神、封神2（端游）（2011年9月 ~ 2013年5月）\r\n主要负责游戏内的功能和玩法的开发。\r\n\r\n## 广州市知圆行方信息科技有限公司（2010年8月 ~ 2011年8月）\r\n\r\n### 泰米时空（页游）\r\n主要负责服务端的功能模块，玩法的开发。\r\n\r\n# 技能\r\n\r\n* 语言类\r\n    - C/C++\r\n    - java\r\n    - LPC\r\n    - python\r\n    - lua\r\n* 数据库\r\n    - MySQL\r\n    - mongodb\r\n* 版本控制\r\n    - svn\r\n    - git\r\n* 其他\r\n    - linux\r\n    - html",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
