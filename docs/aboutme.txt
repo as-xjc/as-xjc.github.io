@@ -33,25 +33,16 @@
 # 熟识技能
 ---
 * 语言类
-    - C/C++
-    - LPC
-    - java
-    - python
-    - Lua
-    - golang
+    > C/C++, LPC, java, python, Lua, golang, javaScript
+
 * 数据库
-    - Mongodb
-    - MySQL
+    > Mongodb, MySQL
+
 * 版本控制
-    - git
-    - svn
+    > git, svn
+
 * 其他
-    - linux
-    - html
-    - http
-    - epoll
-    - libevent
-    - libuv
+    > linux, html, http, epoll, libevent, libuv, vim
 
 ---
 [下载简介](http://about.xjc.me/docs/aboutme.txt)
