@@ -1,13 +1,3 @@
-# 关于我
----
-大家好，我叫萧建成。一名游戏服务端程序员，平时喜欢关注互联网各类的前沿技术发展，研究开源项目。爱好编程、健身、烹饪。
-
-## 基本信息
-* 萧建成/男/1986
-* 本科/东莞理工城市学院
-* [![e-mail](http://about.xjc.me/icons/e-mail.png)](mailto:job@xjc.me)
-[![GitHub](http://about.xjc.me/icons/GitHub.png)](https://github.com/as-xjc)
-
 # 工作历程
 ---
 ## 广州市擎天柱网络科技有限公司 (2011年9月 ~ 2016年11月)
@@ -42,7 +32,7 @@
     > git, svn
 
 * 其他
-    > linux, html, http, epoll, libevent, libuv, vim
+    > linux, html, http, epoll, libevent, libuv, vim, cmake
 
 ---
-[下载简介](http://about.xjc.me/docs/aboutme.txt)
+[下载简介](http://about.xjc.me/index.md)
