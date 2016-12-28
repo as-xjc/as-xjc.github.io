@@ -1,7 +1,7 @@
 title: As.xjc
 description: 一名游戏后端攻城狮
 google_analytics: UA-88417558-1
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-cayman
 
 gems:
