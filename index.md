@@ -14,6 +14,7 @@
 
 # 工作历程
 ---
+
 ## 广州市擎天柱网络科技有限公司 (2011年9月 ~ 2016年11月)
 
 ### 全民大航海（2013年5月 ~ 2016年11月）
@@ -40,16 +41,16 @@
 ---
 
 * 语言类
-    > C/C++, LPC, java, python, Lua, golang, javaScript
+> C/C++, LPC, java, python, Lua, golang, javaScript
 
 * 数据库
-    > Mongodb, MySQL
+> Mongodb, MySQL
 
 * 版本控制
-    > git, svn
+> git, svn
 
 * 其他
-    > linux, html, http, epoll, libevent, libuv, vim, cmake
+> linux, html, http, epoll, libevent, libuv, vim, cmake
 
 ---
 [下载简介](http://about.xjc.me/index.md)
