@@ -47,6 +47,12 @@
 * 负责解决策划需求的技术难点实现。
 * 解决单点MYSQL数据量瓶颈，通过分表分区等方式，提升MYSQL负载平衡性能。
 
+## 其他
+
+### 向[GPSBabel](https://www.gpsbabel.org)提交手机GPS记录分析代码 (2013年2月)
+
+* 向一款免费软件GPSBabel(GPS记录转换工具)提交的一款[手机(Sonim Xp3300中国版)](https://www.gpsbabel.org/htmldoc-1.5.4/fmt_mapbar.html)的GPS记录的读取代码。
+
 # 熟识技能
 
 * 语言类
