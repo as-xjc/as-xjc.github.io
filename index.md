@@ -51,7 +51,7 @@
 
 ### 向[GPSBabel](https://www.gpsbabel.org)提交手机GPS记录分析代码 (2013年2月)
 
-* 分析和编写[Sonim Xp3300 中国版手机](https://www.gpsbabel.org/htmldoc-1.5.4/fmt_mapbar.html)的GPS记录的读取代码，并提交到GPSBabel社区。
+* 这是一次向开源社区提交代码的经历。分析和编写[Sonim Xp3300 中国版手机](https://www.gpsbabel.org/htmldoc-1.5.4/fmt_mapbar.html)的GPS记录的读取代码，并提交到GPSBabel社区。
 
 # 熟识技能
 
