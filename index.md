@@ -24,7 +24,7 @@
 
 ## [广州市擎天柱网络科技有限公司](http://175game.com/) (2011年9月 ~ 2016年11月)
 
-### 全民大航海 (2013年5月 ~ 2016年11月)
+### [全民大航海](http://qmdhh.qq.com/) (2013年5月 ~ 2016年11月)
 
 * 负责服务端的架构设计、基础模块开发：
   - 把现有的单服(`gateway`, `game`, `db`三进程架构)，扩展成针对大世界一服(`gateway`, `global`, `logic`, `db`)的架构，所有进程通过`global组`进行交互，`logic`根据功能划分为：`user组`, `group组`, `social组`, `heartbeat`, `gm`, `scene manager`等服务进程组。
