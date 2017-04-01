@@ -2,7 +2,7 @@ title: As.xjc
 description: 一名C++服务端工程师
 google_analytics: UA-88417558-1
 show_downloads: false
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
