@@ -81,7 +81,7 @@
 
 * 其他
 
-  > linux, html, http, epoll, libevent, libuv, vim, cmake
+  > linux, html, http, epoll, libevent, libuv, vim, cmake, boost
 
 ---
 [下载简介](http://about.xjc.me/index.md)
