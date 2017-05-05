@@ -73,7 +73,7 @@
 
 * 数据库
 
-  > Mongodb, MySQL, Redis
+  > Mongodb, MySQL, Redis, Leveldb
 
 * 版本控制
 
