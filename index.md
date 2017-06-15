@@ -21,7 +21,7 @@
 * 重构服务的各系统模块
 * 新需求开发
 
-> C/C++, Boost, Redis, MySQL
+> C/C++, Boost, Redis, MySQL, cmake
 
 ## [广州市擎天柱网络科技有限公司](http://175game.com/) (2011年9月 ~ 2016年11月)
 
