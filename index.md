@@ -17,9 +17,11 @@
 
 ### [正直播](http://zlive.grtn.cn/)
 
-* 现有框架的修改
+* 现有框架修改和重构
+* 迁移编译系统到cmake，迁移老代码到C++11
+* 业务修改
 
-> C++, MySQL, Redis
+> C/C++, MySQL, Redis, PHP, Boost, cmake
 
 ## [广州久久玖互联网科技有限公司](http://www.99live.com/) (2017年2月 ~ 2017年5月)
 
