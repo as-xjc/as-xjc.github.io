@@ -10,7 +10,7 @@
 * 萧建成/男/1986
 * 本科/东莞理工城市学院
 * [![e-mail](http://about.xjc.me/icons/e-mail.png)](mailto:job@xjc.me)
-[![GitHub](http://about.xjc.me/icons/GitHub.png)](https://github.com/as-xjc)
+* [![GitHub](http://about.xjc.me/icons/GitHub.png)](https://github.com/as-xjc)
 
 # 工作历程
 
