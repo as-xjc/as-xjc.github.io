@@ -8,7 +8,7 @@
 ## 基本信息
 
 * 萧建成/男/1986
-* 本科/东莞理工城市学院
+* 计算机科学与技术/本科/东莞理工城市学院
 * [![e-mail](http://about.xjc.me/icons/e-mail.png)](mailto:job@xjc.me)
 * [![GitHub](http://about.xjc.me/icons/GitHub.png)](https://github.com/as-xjc)
 
@@ -18,10 +18,10 @@
 
 ### [正直播](http://zlive.grtn.cn/)
 
-* 现有框架修改和重构  
-  - 修改现有架构，添加统一的网关层，协调各服务间的服务  
-  - 实现`websocket`，在网关层为`Html5`提供接入方式
-* 迁移编译系统到cmake，迁移老代码到C++11/14
+* 重构现有架构，添加统一的网关层，协调各服务间的服务  
+* 实现`websocket`协议，在网关层为`Html5`提供接入方式
+* 迁移编译系统到`cmake`，实现从依赖库到各服务进程一站式编译
+* 迁移老代码到`C++11/14`
 * 业务修改
 
 > C/C++, MySQL, Redis, PHP, Boost, cmake
@@ -30,8 +30,9 @@
 
 ### [财经直播后台](http://www.99live.com/)
 
-* 重构项目的编译系统
-* 重构服务的各系统模块
+* 重构项目框架，将多种底层库统一用`Boost`改写
+* 迁移编译环境到`cmake`
+* 迁移老代码到`C++11/14`
 * 新需求开发
 
 > C/C++, Boost, Redis, MySQL, cmake
