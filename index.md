@@ -9,8 +9,8 @@
 
 * 萧建成/男/1986
 * 计算机科学与技术/本科/东莞理工学院城市学院
-* [![e-mail](http://about.xjc.me/icons/e-mail.png)](mailto:job@xjc.me)
-* [![GitHub](http://about.xjc.me/icons/GitHub.png)](https://github.com/as-xjc)
+* [![e-mail](icons/e-mail.png)](mailto:job@xjc.me)
+* [![GitHub](icons/GitHub.png)](https://github.com/as-xjc)
 
 # 工作历程
 
@@ -111,4 +111,4 @@
   > linux, html, http, epoll, libevent, libuv, vim, cmake, boost, protobuf
 
 ---
-[下载简介](http://about.xjc.me/index.md)
+[下载简介](index.md)
