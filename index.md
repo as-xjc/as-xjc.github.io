@@ -4,6 +4,7 @@
 * 六年（2010年8月~2016年11月）游戏服务端开发，熟识游戏服务端架构的设计、开发、维护
 * 熟识分布式开发
 * C++后台开发
+* Golang后台开发
 * 项目/代码重构
  
 ## 基本信息
@@ -97,7 +98,7 @@
 
 * 语言类
 
-  > C/C++, LPC, java, python, Lua, golang, javaScript
+  > C/C++, golang, LPC, java, python, Lua, javaScript
 
 * 数据库
 
@@ -110,6 +111,3 @@
 * 其他
 
   > linux, html, http, epoll, libevent, libuv, vim, cmake, boost, protobuf
-
----
-[下载简介](index.md)
