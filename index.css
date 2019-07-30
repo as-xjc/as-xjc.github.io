@@ -5,6 +5,10 @@ html {
     background-color: white;
 }
 
+h3 {
+    border-bottom: 1px solid black;
+}
+
 a[href] {
     text-decoration: none;
     color: black;
