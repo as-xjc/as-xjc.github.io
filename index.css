@@ -4,6 +4,7 @@ html {
     background-color: white;
     /*font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;*/
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    counter-reset: company-index;
 }
 
 a[href] {
@@ -37,13 +38,32 @@ a[href]:hover::after {
 
 .paper > div:first-child {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 20px 0 50px;
     font-size: 3em;
 }
 
 .subtitle {
     border-bottom: 1px solid lightgray;
     font-size: 1.2em;
+}
+
+.company {
+    margin-left: 20px;
+    counter-reset: project-index;
+}
+
+.company > a:first-child:before {
+    counter-increment:company-index;
+    content: counter(company-index) ". ";
+}
+
+.project {
+    margin-left: 30px;
+}
+
+.project > a:first-child:before {
+    counter-increment:project-index;
+    content: counter(project-index) ". ";
 }
 
 .keywords {
