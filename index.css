@@ -1,12 +1,9 @@
 html {
     display: flex;
     flex-direction: column;
-    /*background-image: url("images/background.jpg");*/
     background-color: white;
-}
-
-h3 {
-    border-bottom: 1px solid black;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;*/
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 a[href] {
@@ -18,8 +15,8 @@ a[href] {
 a[href]::after {
     content: "";
     position: absolute;
-    z-index: 1;
-    top: 60%;
+    z-index: -1;
+    top: 70%;
     left: -0.1em;
     right: -0.1em;
     bottom: 0;
@@ -35,22 +32,25 @@ a[href]:hover::after {
     width: 800px;
     margin: 50px 200px 100px 200px;
     padding: 30px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: black 0 0 10px;
-    /*box-shadow: white 0 0 10px;*/
+    box-shadow: black 0 0 5px;
 }
 
 .paper > div:first-child {
     text-align: center;
-    font-size: xx-large;
     margin-bottom: 50px;
+    font-size: 3em;
+}
+
+.subtitle {
+    border-bottom: 1px solid lightgray;
+    font-size: 1.2em;
 }
 
 .keywords {
     font-size: small;
     color: darkgreen;
 }
+
 .keywords::before {
     content: ">> ";
 }
