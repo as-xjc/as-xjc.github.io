@@ -38,6 +38,7 @@ a[href]:hover::after {
 
 .paper > div:first-child {
     text-align: center;
+    text-shadow: black 5px 5px 10px;
     margin: 20px 0 30px;
     font-size: 3em;
 }
