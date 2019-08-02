@@ -2,8 +2,8 @@ html {
     display: flex;
     flex-direction: column;
     background-color: white;
-    /*font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;*/
-    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    /*font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
     counter-reset: company-index;
 }
 
@@ -26,7 +26,7 @@ a[href]::after {
 }
 
 a[href]:hover::after {
-    top: 0%;
+    top: 0;
 }
 
 .paper {
@@ -38,7 +38,7 @@ a[href]:hover::after {
 
 .paper > div:first-child {
     text-align: center;
-    margin: 20px 0 50px;
+    margin: 20px 0 30px;
     font-size: 3em;
 }
 
@@ -48,29 +48,34 @@ a[href]:hover::after {
 }
 
 .company {
-    margin-left: 20px;
+    padding-left: 20px;
     counter-reset: project-index;
 }
 
-.company > a:first-child:before {
+.company > a:first-of-type::before {
     counter-increment:company-index;
     content: counter(company-index) ". ";
 }
 
 .project {
-    margin-left: 30px;
+    padding-left: 20px;
 }
 
-.project > a:first-child:before {
+.project > a:first-of-type::before {
     counter-increment:project-index;
     content: counter(project-index) ". ";
 }
 
-.keywords {
-    font-size: small;
-    color: darkgreen;
+.project > div:first-of-type {
+    padding-left: 10px;
 }
 
-.keywords::before {
+.project > .keywords {
+    font-size: small;
+    color: darkgreen;
+    padding-left: 10px;
+}
+
+.project .keywords::before {
     content: ">> ";
 }
