@@ -1,11 +1,17 @@
 html {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
     /*font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
     counter-reset: company-index;
+    line-height: 1.5;
 }
+
+/** {*/
+/*    outline: 1px solid black;*/
+/*}*/
 
 a[href] {
     text-decoration: none;
@@ -29,17 +35,26 @@ a[href]:hover::after {
     top: 0;
 }
 
-.paper {
-    width: 800px;
-    margin: 50px 200px 100px 200px;
-    padding: 30px;
-    box-shadow: black 0 0 5px;
+@media screen and (min-width: 800px){
+    .paper {
+        width: 800px;
+        margin: 50px 0 100px;
+        padding: 30px;
+        box-shadow: black 0 0 5px 1px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .paper {
+        margin: 5px;
+        padding: 30px;
+        box-shadow: black 0 0 5px 1px inset;
+    }
 }
 
 .paper > div:first-child {
     text-align: center;
     text-shadow: black 5px 5px 10px;
-    margin: 20px 0 30px;
     font-size: 3em;
 }
 
@@ -73,10 +88,27 @@ a[href]:hover::after {
 
 .project > .keywords {
     font-size: small;
+    font-style: oblique;
     color: darkgreen;
     padding-left: 10px;
 }
 
-.project .keywords::before {
+.project > .keywords::before {
     content: ">> ";
+}
+
+.skills > div:first-of-type {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.skills > div > div {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 0 10px 0 10px;
+}
+
+.skills > div > div > span {
+    font-size: 1em;
 }
