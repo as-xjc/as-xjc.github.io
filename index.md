@@ -1,18 +1,19 @@
 # 关于我
 
-大家好，我叫萧建成，一名服务端程序员。擅长C++，同时也涉猎golang，python，lua等语言。平时喜欢关注互联网各类的前沿技术发展，研究开源项目。爱好编程、健身、烹饪。
+Hello，我叫萧建成，一名C++服务端程序员。主攻C++，顺带写写golang、python、lua等，辅助搞搞微信小程序。平时喜欢关注互联网各类的前沿技术发展，研究开源项目。爱好编程、健身、烹饪。
 * 六年（2010年8月~2016年11月）游戏服务端开发，熟识游戏服务端架构的设计、开发、维护
+* 项目工程化、项目/代码重构
 * 熟识分布式开发
 * C++后台开发
 * Golang后台开发
-* 项目/代码重构
+* 微信小程序
  
 ## 基本信息
 
 * 萧建成/男/1986
 * 计算机科学与技术/本科/东莞理工学院城市学院
-* [![e-mail](icons/e-mail.png)](mailto:job@xjc.me)
-* [![GitHub](icons/GitHub.png)](https://github.com/as-xjc)
+* [联系我](mailto:job@xjc.me)
+* [GitHub](https://github.com/as-xjc)
 
 # 工作历程
 
@@ -20,7 +21,7 @@
 
 ### [100教育k12](http://www.100.com/) (2018年3月 ~ 现今)
 
-* 维护和重构现有项目
+* 项目工程化改造、重构和维护
   - 重构编译系统，升级生产环境系统
   - 重构和升级代码，迁移到C++11/14
   - 修改架构，简化部署难度
@@ -29,12 +30,6 @@
 
 > C/C++, protobuf
 
-### TomABC (2018年5月 ~ 2018年9月)
-
-* 服务端的设计和编写
-
-> C/C++
-
 ### 信令平台 (2018年8月 ~ 现今)
 
 * 开发各个业务的统一接入的信令平台
@@ -42,8 +37,24 @@
   - 可靠消息机制的开发
   - websocket库开发
   - 多IP稳定链接的开发
+  - 基于微信小程序的JS版本SDK
 
 > C++, golang
+
+### K12 微信小程序家长端 (2019年7月 ~ 现今)
+
+* 基于微信小程序的H5客户端制作
+  - 基于JavaScript的各类服务的SDK制作
+  - 课堂画板的制作
+  - 小程序UI制作
+ 
+> JavaScript, CSS, HTML5, 微信小程序
+
+### TomABC (2018年5月 ~ 2018年9月)
+
+* 服务端的设计和编写
+
+> C/C++
 
 ## [广东南方直播传媒有限公司](http://zlive.grtn.cn/) (2017年6月 ~ 2018年1月)
 
@@ -123,16 +134,12 @@
 
 * 语言类
 
-  > C/C++, golang, LPC, java, python, Lua, javaScript
+  > C++, Golang, JavaScript, TypeScript, HTML5, CSS, Rust
 
 * 数据库
 
   > Mongodb, MySQL, Redis, Leveldb
 
-* 版本控制
+* 工程化
 
-  > git, svn
-
-* 其他
-
-  > linux, html, http, epoll, libevent, libuv, vim, cmake, boost, protobuf
+  > cmake, git, svn
