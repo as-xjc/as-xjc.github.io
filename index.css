@@ -42,6 +42,18 @@ a[href]:hover::after {
         padding: 30px;
         box-shadow: black 0 0 5px 1px;
     }
+
+    .skills > div:first-of-type {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .skills > div > div {
+        box-sizing: border-box;
+        width: 250px;
+        padding: 0 10px 0 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -49,6 +61,16 @@ a[href]:hover::after {
         margin: 0;
         padding: 15px;
         box-shadow: black 0 0 5px 1px inset;
+    }
+
+    .skills > div:first-of-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .skills > div > div {
+        padding: 0 10px 0 10px;
     }
 }
 
@@ -95,18 +117,6 @@ a[href]:hover::after {
 
 .project > .keywords::before {
     content: ">> ";
-}
-
-.skills > div:first-of-type {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.skills > div > div {
-    box-sizing: border-box;
-    width: 250px;
-    padding: 0 10px 0 10px;
 }
 
 .skills > div > div > p:first-child {
