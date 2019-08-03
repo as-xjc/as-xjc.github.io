@@ -46,8 +46,8 @@ a[href]:hover::after {
 
 @media screen and (max-width: 800px) {
     .paper {
-        margin: 5px;
-        padding: 30px;
+        margin: 0;
+        padding: 15px;
         box-shadow: black 0 0 5px 1px inset;
     }
 }
@@ -107,6 +107,10 @@ a[href]:hover::after {
     box-sizing: border-box;
     width: 250px;
     padding: 0 10px 0 10px;
+}
+
+.skills > div > div > p:first-child {
+    border-bottom: 1px solid lightgray;
 }
 
 .skills > div > div > span {
