@@ -95,7 +95,7 @@ a[href]:hover::after {
 }
 
 .company {
-    padding-left: 20px;
+    padding-left: 2%;
     counter-reset: project-index;
 }
 
@@ -112,12 +112,12 @@ a[href]:hover::after {
 }
 
 .project {
-    padding-left: 20px;
+    padding-left: 3%;
 }
 
 .project > a:first-of-type::before {
     counter-increment:project-index;
-    content: counter(project-index) ". ";
+    content: counter(company-index) "/" counter(project-index) ". ";
 }
 
 .project > div:first-of-type {
