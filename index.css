@@ -43,6 +43,10 @@ a[href]:hover::after {
         box-shadow: black 0 0 5px 1px;
     }
 
+    .project > div:first-of-type {
+        padding-right: 25%;
+    }
+
     .skills > div:first-of-type {
         display: flex;
         flex-flow: row wrap;
@@ -81,8 +85,13 @@ a[href]:hover::after {
 }
 
 .subtitle {
+    font-size: 2em;
+}
+
+.subtitle,
+.company > div:first-child,
+.skills > div > div > p:first-child {
     border-bottom: 1px solid lightgray;
-    font-size: 1.2em;
 }
 
 .company {
@@ -90,7 +99,14 @@ a[href]:hover::after {
     counter-reset: project-index;
 }
 
-.company > a:first-of-type::before {
+.company > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.company > div:first-child > a:first-child::before {
     counter-increment:company-index;
     content: counter(company-index) ". ";
 }
@@ -117,10 +133,6 @@ a[href]:hover::after {
 
 .project > .keywords::before {
     content: ">> ";
-}
-
-.skills > div > div > p:first-child {
-    border-bottom: 1px solid lightgray;
 }
 
 .skills > div > div > span {
