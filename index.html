@@ -32,43 +32,14 @@
     <div class="company">
         <div>
             <a href="http://www.huanju.cn/" target="_blank">欢聚时代-100教育</a>
-            <span>2018年3月 ~ 现今</span>
+            <span>2018年3月 ~ 2020年3月</span>
         </div>
         <div class="project">
-            <a href="http://www.100.com/" target="_blank">100教育k12 (2018年3月 ~ 现今)</a>
+            <a>K12 微信小程序家长端 (2019年7月 ~ 2020年2月)</a>
             <div>
-                <p>项目工程化改造、重构和维护</p>
+                <p>开发家长观看学生上课的微信小程序客户端，使用TypeScript开发。用于替代家长APP端，方便家长免下载使用，减低维护双端app的成本</p>
                 <ul>
-                    <li>重构编译系统，升级生产环境系统</li>
-                    <li>重构和升级代码，迁移到C++11/14</li>
-                    <li>修改架构，简化部署难度</li>
-                    <li>修改服务间的通讯协议，升级为 protobuf，方便维护</li>
-                </ul>
-                <p>实现分布式调用链记录，上报到ELK平台</p>
-            </div>
-            <p class="keywords">C/C++, protobuf</p>
-        </div>
-        <div class="project">
-            <a>信令平台 (2018年8月 ~ 现今)</a>
-            <div>
-                <p>开发各个业务的统一接入的信令平台</p>
-                <ul>
-                    <li>平台的建设</li>
-                    <li>可靠消息机制的开发</li>
-                    <li>websocket库开发</li>
-                    <li>多IP稳定链接的开发</li>
-                    <li>基于微信小程序的JS版本SDK</li>
-                </ul>
-                <p>平台状态信息网关（Golang）</p>
-            </div>
-            <p class="keywords">C++, Golang</p>
-        </div>
-        <div class="project">
-            <a>K12 微信小程序家长端 (2019年7月 ~ 现今)</a>
-            <div>
-                <p>开发家长观看学生上课使用的微信小程序客户端，使用TypeScript开发</p>
-                <ul>
-                    <li>基于TypeScript的各类服务的SDK制作</li>
+                    <li>开发各类业务的sdk，实现业务接入功能</li>
                     <li>课堂画板的制作</li>
                     <li>小程序UI制作</li>
                 </ul>
@@ -76,11 +47,39 @@
             <p class="keywords">TypeScript, JavaScript, CSS, HTML5, 微信小程序</p>
         </div>
         <div class="project">
+            <a>信令平台 (2018年8月 ~ 2019年7月)</a>
+            <div>
+                <p>负责开发各业务统一接入的信令平台，定制业务需要的功能</p>
+                <ul>
+                    <li>可靠消息机制的开发，为部分业务提供有版本记录的协议通讯功能，保证服务间协议不丢失</li>
+                    <li>websocket库开发，为平台网关提供多种接入方式</li>
+                    <li>多IP稳定链接的开发，解决跨机房服务间通讯质量波动问题</li>
+                    <li>开发基于微信小程序的JS版本接入SDK，实现了小程序的接入平台能力</li>
+                </ul>
+                <p>平台状态信息网关（Golang），提供统一的集群信息状况、用户在线、业务房间状态的查询</p>
+            </div>
+            <p class="keywords">C++, Golang, TypeScript</p>
+        </div>
+        <div class="project">
+            <a href="http://www.100.com/" target="_blank">100教育k12 (2018年3月 ~ 2019年7月)</a>
+            <div>
+                <p>主要负责项目工程化改造，解决系统编译、维护和部署困难的问题</p>
+                <ul>
+                    <li>重构编译系统，升级生产环境系统，解决编译环境和生产环境的强耦合的关系，大大降低系统编译速度</li>
+                    <li>重构和升级代码，迁移到C++11/14，方便代码日后的维护</li>
+                    <li>精简架构，简化部署难度</li>
+                    <li>修改服务间的通讯协议，升级为 protobuf，方便维护</li>
+                </ul>
+                <p>实现分布式调用链记录，上报到ELK平台，方便通讯状况的查询</p>
+            </div>
+            <p class="keywords">C/C++, protobuf</p>
+        </div>
+        <div class="project">
             <a>TomABC (2018年5月 ~ 2018年9月)</a>
             <div>
-                <p>实现服务端的初期设计和编写</p>
+                <p>主要实现服务端的初期设计和编写</p>
             </div>
-            <p class="keywords">微服务, C/C++, protobuf</p>
+            <p class="keywords">C/C++, protobuf</p>
         </div>
     </div>
     <div class="company">
@@ -91,7 +90,7 @@
         <div class="project">
             <a href="http://zlive.grtn.cn/" target="_blank">正直播</a>
             <div>
-                <p>重构现有架构</p>
+                <p>重构现有架构，实现可持续维护的状态</p>
                 <ul>
                     <li>重写基础模块，移除老旧代码</li>
                     <li>修改架构，添加网关层，隔离客户端与各业务进程的直连</li>
@@ -113,7 +112,7 @@
         <div class="project">
             <a href="http://www.99live.com/" target="_blank">财经直播后台</a>
             <div>
-                <p>重构项目框架、基础库</p>
+                <p>重构项目框架、基础库，维护系统日常更新</p>
                 <ul>
                     <li>移除老旧的基础库，统一使用boost</li>
                     <li>重写一些基础组件：任务队列、定时调度器、网络应用封装等</li>
